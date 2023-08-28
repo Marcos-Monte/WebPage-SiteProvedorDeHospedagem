@@ -1,0 +1,124 @@
+#planos{
+    background-color: var(--branco-acinzentado);
+    padding: 6em 0;
+}
+
+.tabela{
+    width: 100%;
+    text-align: center;
+    background-color: var(--branco);
+    box-shadow: 0 0 9rem .7rem var(--sombra);
+}
+
+.tabela__titulo{
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.tabela tr{
+    line-height: 4em;
+}
+
+.tabela tr:nth-child(odd){
+    background-color: var(--branco-acinzentado);
+}
+
+.tabela th, .tabela td{
+    border-right: 2px solid var(--branco-acinzentado);
+}
+
+.tabela th{
+    width: calc(100% / 4);
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--branco);
+}
+
+
+.tabela-cabecalho img:first-of-type{
+    width: 40%;
+}
+
+.tabela-cabecalho h3{
+    font-weight: bold;
+}
+
+.tabela-cabecalho p{
+    font-size: .8rem;
+    color: var(--cinza-medio);
+}
+
+/*Tabela.html*/
+
+.secao__tabela{
+    padding: 5em 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tabela2{
+    text-align: center;
+    line-height: 4em;
+    width: 100%;
+}
+
+
+.tabela2 h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0 .8em;
+}
+
+.tabela2 thead p{
+    padding-top: 1em;
+    font-size: .8rem;
+    color: var(--cinza-medio);
+    line-height: 1rem;
+}
+
+.tabela2 td{
+    border: 2px solid var(--cinza-claro); 
+    font-size: .87rem;
+}
+
+.tabela2 thead th:first-of-type{
+    background-color: var(--branco) ;
+}
+
+.tabela2 tbody td:first-child, .tabela2 thead th{
+    background-color: var(--cinza-claro);
+    border:2px solid var(--branco)
+}
+
+.tabela2 tbody td:first-child{
+    text-align: start;
+    padding-left: 1em;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bolinha{
+    position: relative;
+}
+
+.bolinha::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: var(--azul);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    /*Propriedade usada para deixar o elemento exatamente no centro da celula*/
+    transform: translate(-50%, -50%);
+}
+
+.tabela2:hover{
+    transition: 1s;
+    box-shadow: 0 0 3rem 1rem var(--sombra);
+}
+
+
+

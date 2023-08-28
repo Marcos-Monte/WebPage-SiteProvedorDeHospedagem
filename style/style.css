@@ -1,0 +1,39 @@
+@import url("/style/reset.css");
+@import url("/style/cabecalho.css");
+@import url("/style/main.css");
+@import url("/style/planos.css");
+@import url("/style/rodape.css");
+
+:root{
+    --branco: #fff;
+    --branco-acinzentado: #f1f3f7;
+    --cinza-claro: #f6f6f6;
+    --cinza-medio: #a89f9f;
+    --cinza-escuro: #233032;
+    --azul: #2f86d6;
+    --sombra: rgba(47, 134, 214, 1);
+    --preto: black;
+    --fonte: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    min-width: 23.43rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family:  var(--fonte);
+    line-height: 1.5em;
+}
+
+.largura-tela{
+    max-width: 64rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+

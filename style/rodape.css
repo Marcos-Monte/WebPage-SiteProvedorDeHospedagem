@@ -1,0 +1,50 @@
+.rodape{
+    padding-top: 5em;
+    text-align: center;
+}
+
+.logo-rodape{
+    justify-content: center;
+}
+
+.logo-rodape p{
+    text-align: start;
+}
+
+#contato a{
+    display: block;
+    margin: 1em 0;
+    color: var(--preto);
+    text-decoration: none;
+}
+
+#contato{
+    margin: 3em 0;
+}
+
+.assinatura{
+    padding: 1.5em 0;
+    background-color: var(--branco-acinzentado);
+    text-align: center;
+    font-weight: bold;
+}
+
+.assinatura a{
+    color: var(--azul);
+    text-decoration: none;
+}
+
+/*Tabela.html*/
+
+.rodape-tabela{
+    background-color: var(--azul);
+}
+
+.logo-tabela p, .rodape__contatos p{
+    color: var(--branco);
+}
+
+.rodape__contatos{
+    margin: 1em 0 5em;
+}
+

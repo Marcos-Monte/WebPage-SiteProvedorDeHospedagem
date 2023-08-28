@@ -1,0 +1,128 @@
+/*Banner*/
+.banner{
+    background-color: var(--azul);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteiner__banner, .conteiner__anuncio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    box-sizing: border-box;
+}
+
+.banner__texto{
+    color: var(--branco);
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.banner__imagem{
+    width: 50%;
+}
+
+.banner__imagem img{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.banner__texto h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1.8em 0;
+}
+
+/*Anuncio*/
+
+.anuncio{
+    background-color: var(--cinza-escuro);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteiner__anuncio{
+    padding: 2em 0;
+    color: var(--branco);
+}
+
+.anuncio__texto h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.anuncio__texto p{
+    margin-top: 1em;
+}
+
+.anuncio__botao{
+    display: flex;
+    align-items: center;
+    background-color: var(--azul);
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.botao__imagem{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5em;
+}
+
+/*Anuncio 2*/
+.anuncio-dois{
+    background-color: var(--azul);
+    line-height: 2em;
+}
+
+.botao-dois{
+    background-color: var(--cinza-escuro);
+}
+
+/*Informacoes*/
+
+#informacoes{
+    text-align: center;
+    padding: 6em 0;
+}
+
+#informacoes h2, .tabela__titulo{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+#informacoes span, .tabela__titulo span{
+    color: var(--azul)
+}
+
+.conteiner__informacoes{
+    width: 100%;
+    margin: 5em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacao{
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    padding: 0 .2em;
+}
+
+.informacao img:first-child{
+    width: 40%;
+}
+
+.informacao h3{
+    font-weight: bold;
+    margin: 1em 0;
+    font-size: 1.2rem;
+}
+
